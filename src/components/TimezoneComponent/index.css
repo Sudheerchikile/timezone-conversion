@@ -1,0 +1,160 @@
+
+
+/* Light mode styles */
+.time-zone-container {
+  background-color: rgb(187, 189, 190);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-box{
+    margin:20px;
+    align-self: center;
+  }
+  
+
+  .mode-button{
+    align-self: flex-end;
+    border-radius: 50%;
+  }
+.time{
+    font-weight: 700;
+    margin-top: 12px;
+    text-align: center;
+    color: crimson;
+   
+}
+
+.select{
+    width:30vw;
+    height:3.7vh;
+}
+
+
+
+
+  .time-zone {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
+  
+  .time-zone p {
+    margin: 0;
+  }
+
+ 
+  
+  .add-timezone {
+    background-color: #18e273;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left:8px;
+    cursor: pointer;
+  }
+
+  .input{
+    height:3.7vh;
+    width:45vw;
+    
+  }
+
+  
+  
+  /* Dark mode styles */
+  .dark-mode  {
+    background-color: black;
+    color: #ffffff;
+  }
+  
+  .light-mode{
+    background-color: antiquewhite;
+    color: #333333;
+  }
+
+
+  .dark-mode .delete-btn {
+    background-color: #ffbb33;
+    color: #333333;
+  }
+  
+  
+   
+      
+      .card-dark{
+        width: 200px;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        background-color: #731480; /* Dark mode card background color */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Dark mode card shadow */
+        margin-bottom: 14px;
+      }
+  
+
+      .heading{
+        align-self: center;
+      }
+
+
+      button{
+        width: fit-content;
+        padding:12px;
+      
+        border-radius: 12px;
+        border:none;
+       
+      }
+
+      .buttons-con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+        margin-top:25px;
+      }
+
+
+
+      .meet-button{
+        align-self: center;
+        background-color: #4c40eb;
+      }
+
+      .all-timezones{
+        display: flex;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+
+      .drop-down-date-container{
+        display: flex;
+        justify-content: space-around;
+        margin:50px;
+    
+      }
+
+
+      .date-picker{
+        width:30vw;
+        height:3.7vh;
+      }
+
+     
+      .reverse-button{
+        align-self: flex-end;
+      }
