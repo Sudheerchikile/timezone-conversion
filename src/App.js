@@ -1,6 +1,6 @@
+import TimeZoneConverter from './components/TimezoneComponent';
 
 import './App.css';
-import TimeZoneConverter from './components/TimezoneComponent';
 
 function App() {
   return (
