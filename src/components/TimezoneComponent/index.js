@@ -39,7 +39,7 @@ const TimeZoneConverter = () => {
     setShareableLink(url);
     console.log(url)
     copy(url);
-    alert("link copied successfully")
+    alert(`link copied ${shareableLink}`)
   };
 
   const handleTimeZoneAddition = () => {
